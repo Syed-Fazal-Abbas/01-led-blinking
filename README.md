@@ -19,9 +19,8 @@ How It Works
 
 The LED is connected to a digital pin. The code makes the pin HIGH and LOW with a delay, which makes the LED turn ON and OFF repeatedly.
 
-Code:
-​```cpp
-
+​Code:
+```cpp
 void setup() {
   pinMode(12, OUTPUT);
 }
@@ -33,7 +32,7 @@ void loop() {
   digitalWrite(12, LOW);
   delay(100);
 }
-​```
+```
 
 Demo Video
 (https://youtu.be/9Y90IqyfOjw?si=PsWyGZ37I-SWlu11)
